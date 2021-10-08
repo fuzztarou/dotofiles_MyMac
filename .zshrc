@@ -3,14 +3,6 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-export PATH=$PATH:/Users/hirooubukata/Library/Python/3.9/bin/
-eval "$(pyenv init -)"
-
-export PYTHONPATH="/Users/hirooubukata/.pyenv/versions/3.9.0/lib/python3.9/site-packages"
-
-
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -110,5 +102,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
