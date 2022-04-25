@@ -4,3 +4,4 @@
 PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
 export PATH
 eval "$(pyenv init --path)"
+export PATH=$HOME/.nodebrew/current/bin:$PATH
